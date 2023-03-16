@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+        <suite name="SmokeTestSuite" parallel="false">
+    <test name="LoginTest">
+        <classes>
+            <class name="SmokeTestSuite.LoginTest"/>
+        </classes>
+    </test>
+    <test name="BasketTest">
+        <classes>
+            <class name="SmokeTestSuite.BasketTest"/>
+        </classes>
+    </test>
+    <test name="SearchTest">
+        <classes>
+            <class name="SmokeTestSuite.ProductSearchingTest"/>
+        </classes>
+    </test>
+    <test name="CompareTest">
+        <classes>
+            <class name="SmokeTestSuite.ComparingProductsTest"/>
+        </classes>
+    </test>
+    <test name="SortTest">
+        <classes>
+            <class name="SmokeTestSuite.SortingProductsTest"/>
+        </classes>
+    </test>
+</suite>

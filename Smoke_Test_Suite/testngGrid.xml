@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeTestSuite" parallel="true" thread-count="5">
+    <test name="SmokeTest">
+        <classes>
+            <class name="SmokeTestSuite.LoginTest"/>
+            <class name="SmokeTestSuite.ProductSearchingTest"/>
+            <class name="SmokeTestSuite.ComparingProductsTest"/>
+            <class name="SmokeTestSuite.BasketTest"/>
+            <class name="SmokeTestSuite.SortingProductsTest"/>
+        </classes>
+    </test>
+</suite>
